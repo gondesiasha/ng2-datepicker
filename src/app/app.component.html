@@ -1,0 +1,4 @@
+<ng-datepicker [(ngModel)]="date" [options]="options"></ng-datepicker>
+<!-- {{date | format : 'dd mm yyyy'}} -->
+{{date  | date:'yyyy-MM-dd'}}
+<router-outlet></router-outlet>
